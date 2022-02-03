@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/submit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header" id="contacthtml">
+        <nav>
+            <a href="../index.html"><img src="../images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li>
+                        <a href="../index.html#home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#services">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#team">TEAM</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-chevron-circle-down " onclick="showMenu()"></i>
+        </nav>
+        <h1><span>Contact</span> Us</h1>
+    </section>
+
+    <!---------- Context Us Section ---------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.389071909155!2d72.83863036460436!3d19.04662388710477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9390dea7cb1%3A0x3ea8a731bfe5b258!2sFisherman%20colony%2C%20Mahim%2C%20Mumbai%2C%20Maharashtra%20400016!5e0!3m2!1sen!2sin!4v16
+        42925942105!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen=""
+            loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="container1">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address detail">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">Fisherman colony(Ramgad)</div>
+                        <div class="text-two">Mahim Mumbai 400 016</div>
+                    </div>
+                    <div class="email detail">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <div class="topic">Email Id</div>
+                        <div class="text-one">solutionsmwit@gmail.com</div>
+                    </div>
+                    <div class="phone detail">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+91 9768761622</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Send Us <span>Message</span> </div>
+                    <p>If you have any quries do message us we will reply you as early as possible. </p>
+                    <form  action="https://formsubmit.co/solutionsmwit@gmail.com" id="form" method="POST">
+                        <div class="input-box">
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" name="email" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="number" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea required minlength="5" name="message" placeholder="Message......"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="hero-btn red-btn">Send</button>
+                            <span id="load"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!---------- Footer Section ---------->
+
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="../images/logo.png" alt="" class="footer-logo">
+                <div class="social-media">
+                    <a href="https://www.facebook.com/mwitsolution2020" ><i class="fab fa-facebook blue" ></i></a>
+                    <a href="https://www.instagram.com/mw_it_solutions/" ><i class="fab fa-instagram pink"></i></a>
+                    <a href="https://twitter.com/MWITSolutions1" ><i class="fab fa-twitter blue1" ></i></a>
+                    <h3>Our <span>Email</span> </h3>
+                    <p class="footer-email">solutionsmwit<span>@gmail.com</span></p>
+                </div>
+                <p class="right-text">&copy; 2021 <span>Created By MW I.T Solution</span> All Rights Reserved.</p>
+
+            </div>
+            <div class="right-col">
+                <h1>Your Email</h1>
+                <div class="border"></div>
+                <p>enter Your Email for More Info</p>
+                <form action="https://formsubmit.co/solutionsmwit@gmail.com" class="newsletter-form" method="POST">
+                    <input type="text" class="txtb" name="email" placeholder="Enter  Your Email" required>
+                    <input type="submit" class="btn" value="submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="../js/js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+    <!-------------- Contact email  script --------------->
+
+
+
+
+</body>
+
+</html>
